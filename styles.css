@@ -81,14 +81,15 @@ nav img {
 }
 
 .btn {
-  padding: 3px 8px;
+  padding: 5px 5px;
+  padding-left: 36px;
+  padding-right: 36px;
   font-weight: bold;
   background-color: transparent;
   color: white;
-  border-color: white;
   border-radius: 5px;
-  border-width: 0.2px;
   margin: 10px;
+  border: 0.01px solid white;
 }
 .btn img {
   color: aliceblue;
@@ -97,7 +98,7 @@ nav img {
 .btn-red {
   background-color: red;
   color: white;
-  padding: 3px 24px;
+  padding: 12px 12px;
   font-size: 20px;
   border-radius: 5px;
   border-color: red;
@@ -108,4 +109,16 @@ nav img {
   color: white;
   border-color: red;
   border-radius: 5px;
+  padding: 4px 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.main input {
+  padding: 12px 12px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-width: 0.3px;
+  color: aliceblue;
 }
